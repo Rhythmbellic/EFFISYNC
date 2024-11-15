@@ -1,0 +1,36 @@
+brand,product,demand
+Porsche,Indicators,80
+Porsche,Fog light,50
+Porsche,Overhead light,60
+Porsche,Parking light,20
+Porsche,Reading light,30
+Porsche,Tail light,50
+Porsche,Headlight,60
+Skoda,Indicators,50
+Skoda,Fog light,16
+Skoda,Overhead light,56
+Skoda,Parking light,59
+Skoda,Reading light,85
+Skoda,Tail light,59
+Skoda,Headlight,58
+Lamborghini,Indicators,84
+Lamborghini,Fog light,59
+Lamborghini,Overhead light,895
+Lamborghini,Parking light,899
+Lamborghini,Reading light,8
+Lamborghini,Tail light,8
+Lamborghini,Headlight,8
+Audi,Indicators,99
+Audi,Fog light,89
+Audi,Overhead light,59
+Audi,Parking light,9
+Audi,Reading light,4
+Audi,Tail light,56
+Audi,Headlight,59
+Bentley,Indicators,96
+Bentley,Fog light,9
+Bentley,Overhead light,96
+Bentley,Parking light,9
+Bentley,Reading light,98
+Bentley,Tail light,10
+Bentley,Headlight,5
