@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 from job_func import add_job_tocsv , Show_n_delete
-from Scheduling_Back import schedule_jobs
+from Scheduling_Back import schedule_jobs, change_state
 
 
 pg_title='<p style="color:#68b6ef ; font-size:50px;text-align:center ; font-family:Courier New">Job Scheduling</p>'
@@ -30,6 +30,7 @@ if st.button(f"Mark As Done✅",help="Removes the Top Job Queue"):
     dataframe = pd.read_csv('Job_list.csv')
     dataframe = dataframe.drop(index=0)
     dataframe.to_csv('Job_list.csv',index=False)
+    change_state('Delete')
 
 st.divider()
 col1, col2, col3 = st.columns(3)
