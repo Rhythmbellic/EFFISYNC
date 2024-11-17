@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+-f https://download.pytorch.org/whl/cu121 
+matplotlib
+plotly
+scikit-learn
+pandas
