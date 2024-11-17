@@ -22,6 +22,7 @@ if st.button("Schedule Jobs🗓️"):
                    column_config={"Wait Time": st.column_config.BarChartColumn("Wait Time", help="Job's Queue Time",y_min=0,y_max=7)},
                    hide_index=True
                    )
+    change_state('ADD')
     
 if st.button(f"Mark As Done✅",help="Removes the Top Job Queue"):
     jdf = pd.read_csv(r'scheduled_jobs_output.csv')
